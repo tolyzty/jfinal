@@ -28,6 +28,7 @@ public class IndexController extends Controller {
     public void form(){
         Integer id = getParaToInt(0);
         if(id!=null&&id>0){
+
             setAttr("blog","wwwwwwwwwww");
         }
         render("form.jsp");
